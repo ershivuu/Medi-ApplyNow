@@ -29,10 +29,14 @@ function Foundation() {
             <div>
               <img src={miilogo} alt="" />
             </div>
+            <div className="for-mobile">
+              <p>10</p> <span>CR</span>
+            </div>
           </div>
           <div className="cr-logo">
             <p>CR</p>
           </div>
+
           <div className="funding-cards">
             <div className="funding-card">
               <p className="nums">

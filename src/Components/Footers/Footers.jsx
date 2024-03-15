@@ -130,6 +130,7 @@ function Footers() {
         <div>
           <a
             href="https://www.medicaps.ac.in/privacy-policy.php"
+            target="_blank"
             style={{
               textDecoration: "none",
               color: "rgba(255, 255, 255, 0.655)",

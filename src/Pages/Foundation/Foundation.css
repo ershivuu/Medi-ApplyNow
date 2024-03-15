@@ -92,6 +92,18 @@
   margin-top: -100px;
   margin-left: 1000px;
 }
+.for-mobile {
+  margin-block: 50px;
+  display: none;
+}
+.for-mobile p {
+  font-size: 200px !important;
+}
+.for-mobile span {
+  font-size: 50px;
+  color: #fcb514;
+  font-family: "Gotham-Bold";
+}
 @media screen and (max-width: 320px) {
   /* Styles for smaller smartphones */
   .funding-cards {
@@ -132,6 +144,9 @@
   }
   .cr-logo {
     display: none;
+  }
+  .for-mobile {
+    display: block;
   }
 }
 
