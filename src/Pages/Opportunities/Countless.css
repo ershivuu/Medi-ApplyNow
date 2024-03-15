@@ -17,9 +17,6 @@
   justify-content: center;
   gap: 100px;
   color: white;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 .left-section {
   font-family: "Gotham-Bold";
@@ -91,9 +88,6 @@
   -ms-flex-pack: center;
   justify-content: center;
   gap: 10px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 .student-img {
   width: 220px;
@@ -126,6 +120,7 @@
   font-size: 25px;
   font-family: "Gotham-Bold";
   text-transform: uppercase;
+  line-height: 1;
 }
 .person-salary div:nth-child(2) {
   width: 120px;
@@ -173,6 +168,9 @@
   /* Styles for larger smartphones */
   .right-section {
     gap: 20px;
+  }
+  .names {
+    font-size: 20px;
   }
 }
 

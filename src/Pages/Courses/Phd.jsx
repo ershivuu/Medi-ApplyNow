@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Engineering from "./SubCourses/Engineering";
+import Blank from "./SubCourses/Blank";
 
 function Phd() {
   const [selectedComponent, setSelectedComponent] = useState();
@@ -31,7 +32,7 @@ function Phd() {
       component = <Engineering />;
       break;
     default:
-      component = <Engineering />;
+      component = <Blank />;
       break;
   }
   return (

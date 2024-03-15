@@ -22,7 +22,7 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
 }
 .apply-card {
   width: 280px;
