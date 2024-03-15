@@ -1,0 +1,100 @@
+.course-slider {
+  max-width: 1440px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.available-course p:nth-child(1) {
+  color: #fcb514;
+  font-family: "Gotham-Bold";
+  font-size: 30px;
+}
+.available-course p:nth-child(2) {
+  color: var(--maroon-color);
+  font-family: "Gotham-Medium";
+  font-size: 25px;
+}
+.available-course {
+  line-height: 1;
+}
+.course-row {
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.course-col {
+  font-family: "Gotham-Bold";
+  font-size: 30px;
+  color: gray;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 15px;
+}
+.activeated-card-1 {
+  background-color: var(--maroon-color);
+  color: white;
+  text-decoration: underline;
+}
+.course-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  max-width: 1440px;
+  margin: auto;
+}
+.course-btn {
+  color: var(--maroon-color);
+  font-family: "Gotham-Bold";
+  font-size: 25px;
+  border: 1px solid gray;
+  margin: 10px;
+  width: 350px;
+  padding: 10px;
+  cursor: pointer;
+}
+.active-button {
+  background-color: var(--maroon-color);
+  color: white;
+}
+@media screen and (max-width: 320px) {
+  /* Styles for smaller smartphones */
+  .available-course {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* Styles for larger smartphones */
+  .available-course {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Styles for tablets */
+  .available-course {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for small desktops and tablets in landscape */
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for larger desktops and laptops */
+}
+
+/* Additional media queries for larger screens can be added if needed */

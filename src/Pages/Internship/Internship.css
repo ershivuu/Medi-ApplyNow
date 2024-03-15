@@ -1,0 +1,195 @@
+.intern-super-container {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(100%, rgba(128, 0, 0, 0.749)),
+      to(rgba(128, 0, 0, 0.749))
+    ),
+    url("../../assets/images/medi-institute.jpg");
+  background: -o-linear-gradient(
+      left,
+      rgba(128, 0, 0, 0.749) 100%,
+      rgba(128, 0, 0, 0.749) 100%
+    ),
+    url("../../assets/images/medi-institute.jpg");
+  background: linear-gradient(
+      90deg,
+      rgba(128, 0, 0, 0.749) 100%,
+      rgba(128, 0, 0, 0.749) 100%
+    ),
+    url("../../assets/images/medi-institute.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-block: 50px;
+}
+.intern-sub-container {
+  max-width: 1440px;
+  margin: auto;
+}
+.intern-section-heading {
+  text-align: center;
+  color: var(--orange-color);
+  font-family: "Gotham-Bold";
+  font-size: 50px;
+  line-height: 1;
+  margin-bottom: 25px;
+}
+.internship-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 100px;
+}
+.internship-card {
+  width: 350px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  background-color: grey;
+  padding: 15px;
+}
+.student-details {
+  line-height: 1;
+  color: var(--orange-color);
+  border-bottom: 2px solid white;
+}
+.student-details p:nth-child(1) {
+  font-family: "Gotham-Bold";
+  font-size: 25px;
+}
+.student-quote {
+  padding-top: 20px;
+  color: white;
+  font-family: "Gotham-Light";
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.student-quote div:nth-child(1) {
+  font-size: 15px;
+}
+.student-packages p:nth-child(2) {
+  font-size: 12px;
+}
+.student-packages {
+  line-height: 1;
+}
+.company-logo {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+}
+.company-logo img {
+  width: 100px;
+  height: 40px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.card-content {
+  margin-top: 150px;
+  /* margin-bottom: -20px; */
+}
+.internship-card:nth-child(1) {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(30%, rgba(128, 0, 0, 0.58)),
+      color-stop(30%, rgba(128, 0, 0, 0.525))
+    ),
+    url("../../assets/images/NiyanshiAgrawal.png");
+  background: -o-linear-gradient(
+      left,
+      rgba(128, 0, 0, 0.58) 30%,
+      rgba(128, 0, 0, 0.525) 30%
+    ),
+    url("../../assets/images/NiyanshiAgrawal.png");
+  background: linear-gradient(
+      90deg,
+      rgba(128, 0, 0, 0.58) 30%,
+      rgba(128, 0, 0, 0.525) 30%
+    ),
+    url("../../assets/images/NiyanshiAgrawal.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.internship-card:nth-child(2) {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(30%, rgba(128, 0, 0, 0.58)),
+      color-stop(30%, rgba(128, 0, 0, 0.525))
+    ),
+    url("../../assets/images/SakshiBhate.png");
+  background: -o-linear-gradient(
+      left,
+      rgba(128, 0, 0, 0.58) 30%,
+      rgba(128, 0, 0, 0.525) 30%
+    ),
+    url("../../assets/images/SakshiBhate.png");
+  background: linear-gradient(
+      90deg,
+      rgba(128, 0, 0, 0.58) 30%,
+      rgba(128, 0, 0, 0.525) 30%
+    ),
+    url("../../assets/images/SakshiBhate.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.internship-card:nth-child(3) {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(30%, rgba(128, 0, 0, 0.58)),
+      color-stop(30%, rgba(128, 0, 0, 0.525))
+    ),
+    url("../../assets/images/YashasviBhamare.png");
+  background: -o-linear-gradient(
+      left,
+      rgba(128, 0, 0, 0.58) 30%,
+      rgba(128, 0, 0, 0.525) 30%
+    ),
+    url("../../assets/images/YashasviBhamare.png");
+  background: linear-gradient(
+      90deg,
+      rgba(128, 0, 0, 0.58) 30%,
+      rgba(128, 0, 0, 0.525) 30%
+    ),
+    url("../../assets/images/YashasviBhamare.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 320px) {
+  /* Styles for smaller smartphones */
+  .intern-section-heading {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* Styles for larger smartphones */
+  .intern-section-heading {
+    font-size: 30px;
+  }
+  .internship-cards {
+    gap: 50px;
+  }
+}
+
+/* Additional media queries for larger screens can be added if needed */

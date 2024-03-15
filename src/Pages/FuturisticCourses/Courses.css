@@ -1,0 +1,93 @@
+.courses-super-container {
+  background-color: #eeeeee;
+  padding-block: 50px;
+}
+.courses-sub-container {
+  max-width: 1440px;
+  margin: auto;
+}
+.course-heading {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  font-family: "Gotham-Bold";
+  color: var(--orange-color);
+  font-size: 50px;
+  line-height: 1;
+}
+.courses-cards {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 50px;
+}
+.courses-card {
+  text-align: center;
+  width: 320px;
+  border-radius: 30px;
+  background-color: var(--maroon-color);
+  padding: 20px;
+  position: relative;
+}
+.course-card-heading {
+  font-family: "Gotham-Bold";
+  color: white;
+  font-size: 20px;
+  line-height: 1;
+}
+.course-card-data {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: white;
+  font-family: "Gotham-Light";
+}
+.courses-card button {
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 50px 5px 50px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-block: 10px;
+}
+.courses-card button a {
+  color: var(--maroon-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Gotham-Bold";
+  font-size: 20px;
+}
+@media screen and (max-width: 320px) {
+  /* Styles for smaller smartphones */
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .course-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Styles for tablets */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for small desktops and tablets in landscape */
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for larger desktops and laptops */
+}
+
+/* Additional media queries for larger screens can be added if needed */

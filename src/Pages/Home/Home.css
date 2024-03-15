@@ -1,0 +1,107 @@
+.home-section {
+  background: url("../../assets/images/home-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-block: 10%;
+  position: relative;
+  z-index: 62616;
+}
+.home-sub-section {
+  max-width: 1440px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.section-a {
+  color: white;
+  font-size: 50px;
+  text-transform: capitalize;
+  font-family: "Gotham-Bold";
+  line-height: 1.3;
+}
+.section-a button {
+  font-size: 30px;
+  font-family: "Gotham-Book";
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 2px 30px 2px 30px;
+}
+.section-b {
+  width: 450px;
+  height: 400px;
+  border: 2px solid white;
+  margin-top: -3%;
+  border-radius: 15px;
+}
+
+.apply-btn {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 50;
+  margin: auto;
+  margin-right: 0px;
+  padding: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: right;
+  -ms-transform-origin: right;
+  transform-origin: right;
+  right: 0.9em;
+}
+.apply-btn button {
+  border: none !important;
+  height: 30px;
+  width: 150px;
+  max-height: 30px;
+  max-width: 170px;
+  background-color: #fec00f;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2em;
+  border: none;
+  padding: 0;
+  display: block;
+}
+@media screen and (max-width: 320px) {
+  /* Styles for smaller smartphones */
+  .section-b {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* Styles for larger smartphones */
+  .section-b {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Styles for tablets */
+  .section-b {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for small desktops and tablets in landscape */
+  .section-b {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for larger desktops and laptops */
+}
+
+/* Additional media queries for larger screens can be added if needed */

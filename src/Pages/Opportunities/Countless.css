@@ -1,0 +1,191 @@
+.countless-container {
+  background: url("../../assets/images//countless-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-block: 50px;
+  margin-block: 50px;
+}
+.countless-section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 100px;
+  color: white;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.left-section {
+  font-family: "Gotham-Bold";
+  font-size: 50px;
+  line-height: 1.2;
+}
+.left-section p:nth-child(2) {
+  font-size: 18px;
+  font-family: "Gotham-Medium";
+  letter-spacing: 1.5px;
+}
+.left-section p:nth-child(2) span {
+  font-size: 15px;
+
+  border-bottom: 1px solid white;
+}
+.left-section {
+  max-width: 650px;
+}
+
+.right-section {
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  gap: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 550px;
+  width: 550px;
+}
+.right-section p {
+  font-size: 30px;
+  width: 150px;
+  font-family: "Gotham-Bold";
+  line-height: 1;
+}
+.right-section p span {
+  font-size: 15px;
+  font-family: "Gotham-Thin";
+  text-transform: capitalize;
+}
+
+.student-cards {
+  margin-block: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 30px;
+}
+.student-card {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.student-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: orange;
+  overflow: hidden;
+}
+.student-img img {
+  width: 220px;
+  height: 220px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.thoughts {
+  width: 220px;
+  font-family: "Gotham-ThinItalic";
+  color: white;
+}
+.person-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: white;
+}
+.names {
+  font-size: 25px;
+  font-family: "Gotham-Bold";
+  text-transform: uppercase;
+}
+.person-salary div:nth-child(2) {
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.person-salary div:nth-child(2) img {
+  width: 100px;
+  height: 50px;
+  margin-left: 8px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.person-salary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.person-salary div:nth-child(1) {
+  line-height: 0.8;
+}
+.person-salary div:nth-child(1) p:nth-child(1) {
+  font-family: "Gotham-Thin";
+}
+.person-salary div:nth-child(1) p:nth-child(2) {
+  font-family: "Gotham-Bold";
+  font-size: 30px;
+}
+.person-salary div:nth-child(1) p:nth-child(2) span {
+  font-family: "Gotham-Thin";
+  font-size: 20px;
+}
+@media screen and (max-width: 320px) {
+  /* Styles for smaller smartphones */
+  .right-section {
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* Styles for larger smartphones */
+  .right-section {
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Styles for tablets */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for small desktops and tablets in landscape */
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for larger desktops and laptops */
+}
+
+/* Additional media queries for larger screens can be added if needed */

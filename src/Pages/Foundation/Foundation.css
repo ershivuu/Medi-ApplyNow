@@ -1,0 +1,160 @@
+.foundation-container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.foundation-heading {
+  line-height: 1;
+  text-align: center;
+  color: var(--maroon-color);
+  margin-block: 30px;
+}
+.foundation-heading p:nth-child(1) {
+  font-size: 50px;
+  font-family: "Gotham-Bold";
+}
+.foundation-heading p:nth-child(2) {
+  font-size: 30px;
+  font-family: "Gotham-Medium";
+}
+.foundation-heading p:nth-child(3) {
+  font-size: 25px;
+  font-family: "Gotham-Medium";
+  color: black;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 30px;
+}
+.foundation-image {
+  background: url("../../assets/images/foundation-bg.png");
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+}
+.foundation-para {
+  text-align: center;
+  color: white;
+  line-height: 1;
+  padding-bottom: 500px;
+}
+.foundation-para img:nth-child(1) {
+  width: auto;
+  height: auto;
+}
+.ten-img img {
+  width: 80%;
+  height: 80%;
+}
+
+.foundation-para p:nth-child(1) {
+  font-size: 50px;
+  font-family: "Gotham-Bold";
+}
+.foundation-para p:nth-child(2) {
+  font-size: 30px;
+  font-family: "Gotham-Thin";
+}
+.funding-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 50px;
+}
+.funding-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 18px;
+}
+.funding-card {
+  text-align: center;
+  color: #fcb514;
+  font-size: 25px;
+  font-family: "Gotham-Thin";
+  line-height: 1;
+}
+.nums {
+  font-family: "Gotham-Bold";
+  font-size: 50px;
+}
+.nums span {
+  font-size: 30px;
+}
+.cr-logo {
+  position: absolute;
+  font-size: 50px;
+  color: #fcb514;
+  font-family: "Gotham-Bold";
+  margin-top: -100px;
+  margin-left: 1000px;
+}
+@media screen and (max-width: 320px) {
+  /* Styles for smaller smartphones */
+  .funding-cards {
+    display: block;
+  }
+  .funding-card {
+    margin-bottom: 20px;
+  }
+  .cr-logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* Styles for larger smartphones */
+  .funding-cards {
+    display: block;
+  }
+  .funding-card {
+    margin-bottom: 20px;
+  }
+  .foundation-image {
+    background: url("../../assets/images/foundation-bg-2.png");
+    background-position: center;
+    background-size: cover;
+    padding-block: 50px;
+  }
+  .foundation-para {
+    padding-bottom: 10px;
+  }
+  .foundation-heading p:nth-child(1) {
+    font-size: 30px;
+    font-family: "Gotham-Bold";
+  }
+  .foundation-heading p:nth-child(2) {
+    font-size: 20px;
+    font-family: "Gotham-Medium";
+  }
+  .cr-logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Styles for tablets */
+  .funding-cards {
+    gap: 30px;
+  }
+  .cr-logo {
+    margin-top: -100px;
+    margin-left: 650px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cr-logo {
+    margin-top: -100px;
+    margin-left: 750px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for larger desktops and laptops */
+}
+
+/* Additional media queries for larger screens can be added if needed */

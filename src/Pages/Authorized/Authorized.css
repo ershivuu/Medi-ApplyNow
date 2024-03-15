@@ -1,0 +1,49 @@
+.auth-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.auth-card {
+  width: 350px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Gotham-Medium";
+  padding: 25px;
+}
+.auth-card img {
+  margin-bottom: 20px;
+}
+
+.auth-card:nth-child(1) {
+  background: url("../../assets/images/red.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--orange-color);
+}
+.auth-card:nth-child(2) {
+  background: url("../../assets/images/yellow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--maroon-color);
+}
+.auth-card:nth-child(3) {
+  background: url("../../assets/images/white.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #144166;
+}
+.auth-card:nth-child(4) {
+  background: url("../../assets/images/blue.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}

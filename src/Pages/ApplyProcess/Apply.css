@@ -1,0 +1,132 @@
+.apply-main-container {
+  background-color: #f2f2f2;
+  padding-block: 30px;
+  margin-block: 30px;
+}
+.apply-container {
+  max-width: 1440px;
+  margin: auto;
+}
+.section-heading {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Gotham-Bold";
+  color: maroon;
+}
+.apply-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 100px;
+}
+.apply-card {
+  width: 280px;
+  color: rgb(121, 120, 120);
+  font-family: "Gotham-Bold";
+  padding-inline: 25px;
+  font-size: 16px;
+}
+.arrow {
+  width: 100px;
+  padding: 0;
+}
+.arrow img {
+  width: 30px;
+}
+.icon-div {
+  margin-left: 90px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.icon-div img {
+  width: 50px;
+  height: 50px;
+}
+@media screen and (max-width: 320px) {
+  .arrow {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .apply-cards {
+    display: block;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: auto;
+  }
+  .arrow {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .apply-card {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Styles for tablets */
+  .apply-cards {
+    display: block;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: auto;
+  }
+  .arrow {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .apply-card {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for small desktops and tablets in landscape */
+  .apply-cards {
+    display: block;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: auto;
+  }
+  .arrow {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .apply-card {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for larger desktops and laptops */
+}
+
+/* Additional media queries for larger screens can be added if needed */

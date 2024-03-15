@@ -1,0 +1,157 @@
+.scholar-super-container {
+  max-width: 1440px;
+  margin: auto;
+  margin-block: 50px;
+}
+.scholar-ship {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.scholar-ship div:nth-child(1) {
+  font-size: 50px;
+  color: var(--maroon-color);
+  font-family: "Gotham-Bold";
+  line-height: 1.3;
+}
+.scholar-ship div:nth-child(1) span {
+  color: orange;
+}
+.scholar-ship div:nth-child(2) p {
+  color: orange;
+  font-size: 72px;
+  font-family: "Gotham-Bold";
+  letter-spacing: 2px;
+}
+.scholar-ship div:nth-child(2) img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.sat-para {
+  font-size: 20px;
+  color: black;
+  font-family: "Gotham-Medium";
+  max-width: 1250px;
+  margin: auto;
+}
+.sat-para span {
+  font-family: "Gotham-Bold";
+}
+.phases {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  gap: 50px;
+  text-align: center;
+  line-height: 1;
+}
+.phase p:nth-child(2) {
+  color: var(--maroon-color);
+  font-family: "Gotham-Bold";
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.phase p:nth-child(3) {
+  color: gray;
+  font-family: "Gotham-Medium";
+  font-size: 20px;
+}
+.number {
+  background-color: var(--maroon-color);
+  color: white;
+  font-family: "Gotham-Medium";
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  font-size: 40px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+}
+.number:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+.phase-container {
+  margin-top: 100px;
+}
+.line {
+  border-bottom: 3px solid black;
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+  z-index: -11000;
+  margin-bottom: -50px;
+}
+@media screen and (max-width: 320px) {
+  /* Styles for smaller smartphones */
+  .line {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* Styles for larger smartphones */
+  .scholar-ship div:nth-child(2) p {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .scholar-ship div:nth-child(1) {
+    font-size: 40px;
+    text-align: center;
+  }
+  .line {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Styles for tablets */
+  .line {
+    display: none;
+  }
+  .scholar-ship div:nth-child(2) img {
+    width: 80%;
+    height: 80%;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .scholar-ship div:nth-child(2) p {
+    font-size: 50px;
+    letter-spacing: normal;
+  }
+  .scholar-ship div:nth-child(2),
+  .scholar-ship div:nth-child(1) {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for small desktops and tablets in landscape */
+  .line {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for larger desktops and laptops */
+  .line {
+    display: none;
+  }
+}
+
+/* Additional media queries for larger screens can be added if needed */
