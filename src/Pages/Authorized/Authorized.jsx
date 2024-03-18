@@ -10,7 +10,7 @@ function Authorized() {
       <div className="auth-cards">
         <div className="auth-card">
           <img src={bci} alt="" />
-          <p>ACCREDITED BY <br />BCI (Bar Council of India)</p>
+          <p>APPROVED BY <br />BCI (Bar Council of India)</p>
         </div>
         <div className="auth-card">
           <img src={ugc} alt="" />

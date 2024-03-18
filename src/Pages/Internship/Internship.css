@@ -93,13 +93,14 @@
 .company-logo img {
   width: 100px;
   height: 40px;
+  padding: 2px;
   -o-object-fit: contain;
   object-fit: contain;
 }
 .card-content {
   margin-top: 150px;
-  /* margin-bottom: -20px; */
 }
+
 .internship-card:nth-child(1) {
   background: -webkit-gradient(
       linear,
@@ -121,8 +122,8 @@
       rgba(128, 0, 0, 0.525) 30%
     ),
     url("../../assets/images/NiyanshiAgrawal.png");
-  background-size: contain;
-  background-position: bottom;
+  background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
 }
 .internship-card:nth-child(2) {
@@ -146,8 +147,8 @@
       rgba(128, 0, 0, 0.525) 30%
     ),
     url("../../assets/images/SakshiBhate.png");
-  background-size: contain;
-  background-position: bottom;
+  background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
 }
 .internship-card:nth-child(3) {
@@ -171,8 +172,8 @@
       rgba(128, 0, 0, 0.525) 30%
     ),
     url("../../assets/images/YashasviBhamare.png");
-  background-size: contain;
-  background-position: bottom;
+  background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 320px) {

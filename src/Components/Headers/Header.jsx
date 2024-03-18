@@ -40,7 +40,7 @@ function Header() {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link className="nav-link active" aria-current="page">
-                      <a onClick={() => scrollToSection("why-mu")}>
+                      <a onCflick={() => scrollToSection("why-mu")}>
                         Why MU-SAT
                       </a>
                     </Link>
