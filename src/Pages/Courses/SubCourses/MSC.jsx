@@ -1,19 +1,23 @@
 import React from "react";
+import "./Subcourse.css";
 
-function Pharmacy() {
+function MSC() {
   return (
     <>
       <div className="main-container">
         <div className="courses-heading">
-          <p>Pharmacy</p>
-          <p>B.Pharma</p>
+          <p>Science</p>
+          <p>M.SC</p>
         </div>
         <div className="all-courses">
-          
+          <p>Physics</p>
+          <p>Chemistry</p>
+          <p>Maths</p>
+          <p>Forensic Sciencer</p>
         </div>
       </div>
     </>
   );
 }
 
-export default Pharmacy;
+export default MSC;

@@ -5,8 +5,7 @@ function Science() {
     <>
       <div className="main-container">
         <div className="courses-heading">
-          <p>Engineering</p>
-          <p>(B.TECH)</p>
+          <p>Science</p>
         </div>
         <div className="all-courses">
           <p>B.Sc. Bio-Technology</p>

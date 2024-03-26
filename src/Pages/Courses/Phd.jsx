@@ -39,40 +39,22 @@ function Phd() {
     <>
       <div className="course-list">
         <div className="course-btns">
-          <div
-            className="course-btn"
-            onClick={() => rendercomponent("Engineering")}
-          >
+          <div className="course-btn">
             <p>Ph.D. in Engineering</p>
           </div>
-          <div
-            className="course-btn"
-            // onClick={() => rendercomponent("Pharmacy")}
-          >
+          <div className="course-btn">
             <p>Ph.D. in Management</p>
           </div>
-          <div
-            className="course-btn"
-            onClick={() => rendercomponent("Management")}
-          >
+          <div className="course-btn">
             <p>Ph.D. in Commerce</p>
           </div>
-          <div
-            className="course-btn"
-            onClick={() => rendercomponent("Commerce")}
-          >
+          <div className="course-btn">
             <p>Ph.D. in Science</p>
           </div>
-          <div
-            className="course-btn"
-            onClick={() => rendercomponent("Science")}
-          >
+          <div className="course-btn">
             <p>Ph.D. in Pharmacy</p>
           </div>
-          <div
-            className="course-btn"
-            onClick={() => rendercomponent("Agriculture")}
-          >
+          <div className="course-btn">
             <p>Ph.D. in Arts, Humanities & Social Science</p>
           </div>
         </div>

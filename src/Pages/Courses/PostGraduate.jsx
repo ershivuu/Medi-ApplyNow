@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import Engineering from "./SubCourses/Engineering";
+import MSC from "./SubCourses/MSC";
+import MBA from "./SubCourses/MBA";
+import MTECH from "./SubCourses/MTECH";
 
 function PostGraduate() {
   const [selectedComponent, setSelectedComponent] = useState();
-  const [activeButton, setActiveButton] = useState("Engineering");
+  const [activeButton, setActiveButton] = useState("MTECH");
   const rendercomponent = (componentName) => {
     setSelectedComponent(componentName);
     setActiveButton(componentName);
@@ -11,27 +14,18 @@ function PostGraduate() {
 
   let component;
   switch (selectedComponent) {
-    case "Engineering":
-      component = <Engineering />;
-      break;
-    case "Pharmacy":
-      component = <Engineering />;
-      break;
-    case "Management":
-      component = <Engineering />;
-      break;
-    case "Commerce":
-      component = <Engineering />;
+    case "MSC":
+      component = <MSC />;
       break;
 
-    case "Science":
-      component = <Engineering />;
+    case "MBA":
+      component = <MBA />;
       break;
-    case "Agriculture":
-      component = <Engineering />;
+    case "MTECH":
+      component = <MTECH />;
       break;
     default:
-      component = <Engineering />;
+      component = <MTECH />;
       break;
   }
   return (
@@ -39,50 +33,41 @@ function PostGraduate() {
       <div className="course-list">
         <div className="course-btns">
           <div
-          className={`course-btn ${
-            activeButton === "Engineering" ? "active-button" : ""
-          }`}
-            onClick={() => rendercomponent("Engineering")}
+            className={`course-btn ${
+              activeButton === "MTECH" ? "active-button" : ""
+            }`}
+            onClick={() => rendercomponent("MTECH")}
           >
-            <p>Master of Arts</p>
-          </div>
-          <div
-            className="course-btn"
-            // onClick={() => rendercomponent("Pharmacy")}
-          >
-            <p>M.Pharma</p>
-          </div>
-          <div
-          className={`course-btn ${
-            activeButton === "Management" ? "active-button" : ""
-          }`}
-            onClick={() => rendercomponent("Management")}
-          >
-            <p>Master of Computer Application</p>
-          </div>
-          <div
-         className={`course-btn ${
-          activeButton === "Commerce" ? "active-button" : ""
-        }`}
-            onClick={() => rendercomponent("Commerce")}
-          >
-            <p>Master of Science</p>
-          </div>
-          <div
-           className={`course-btn ${
-            activeButton === "Science" ? "active-button" : ""
-          }`}
-            onClick={() => rendercomponent("Science")}
-          >
-            <p>Master of Business Administration</p>
+            <p>Engineering</p>
           </div>
           <div
             className={`course-btn ${
-              activeButton === "Agriculture" ? "active-button" : ""
+              activeButton === "MBA" ? "active-button" : ""
             }`}
-            onClick={() => rendercomponent("Agriculture")}
+            onClick={() => rendercomponent("MBA")}
           >
-            <p>Master of Technology</p>
+            <p>Management</p>
+          </div>
+          <div
+            className={`course-btn ${
+              activeButton === "MSC" ? "active-button" : ""
+            }`}
+            onClick={() => rendercomponent("MSC")}
+          >
+            <p>Science</p>
+          </div>
+          <div className="course-btn">
+            <p>Master of Arts</p>
+          </div>
+          <div className="course-btn">
+            <p>M.Pharma</p>
+          </div>
+
+          <div className="course-btn">
+            <p>BCA + MCA (Integrated)</p>
+          </div>
+          <div className="course-btn">
+            <p>Master of Computer Application</p>
           </div>
         </div>
 

@@ -1,19 +1,20 @@
 import React from "react";
 
-function Pharmacy() {
+function Law() {
   return (
     <>
       <div className="main-container">
         <div className="courses-heading">
-          <p>Pharmacy</p>
-          <p>B.Pharma</p>
+          <p>Law</p>
         </div>
         <div className="all-courses">
-          
+          <p>BA-LL.B.</p>
+          <p>BBA-LL.B.</p>
+          <p>LL.B.</p>
         </div>
       </div>
     </>
   );
 }
 
-export default Pharmacy;
+export default Law;

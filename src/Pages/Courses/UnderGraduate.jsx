@@ -5,6 +5,7 @@ import Management from "./SubCourses/Management";
 import Commerce from "./SubCourses/Commerce";
 import Science from "./SubCourses/Science";
 import Agriculture from "./SubCourses/Agriculture";
+import Law from "./SubCourses/Law";
 
 function UnderGraduate() {
   const [selectedComponent, setSelectedComponent] = useState();
@@ -35,6 +36,9 @@ function UnderGraduate() {
     case "Agriculture":
       component = <Agriculture />;
       break;
+    case "Law":
+      component = <Law />;
+      break;
     default:
       component = <Engineering />;
       break;
@@ -53,10 +57,12 @@ function UnderGraduate() {
               <p>Engineering </p>
             </div>
             <div
-              className="course-btn"
-              // onClick={() => rendercomponent("Pharmacy")}
+              className={`course-btn ${
+                activeButton === "Pharmacy" ? "active-button" : ""
+              }`}
+              onClick={() => rendercomponent("Pharmacy")}
             >
-              <p>Pharmacy</p>
+              <p>Pharmacy </p>
             </div>
             <div
               className={`course-btn ${
@@ -89,6 +95,14 @@ function UnderGraduate() {
               onClick={() => rendercomponent("Agriculture")}
             >
               <p>Agriculture</p>
+            </div>
+            <div
+              className={`course-btn ${
+                activeButton === "Law" ? "active-button" : ""
+              }`}
+              onClick={() => rendercomponent("Law")}
+            >
+              <p>Law</p>
             </div>
           </div>
 
